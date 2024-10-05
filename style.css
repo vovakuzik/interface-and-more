@@ -1,0 +1,107 @@
+html {
+  scroll-behavior: smooth; /* Плавная прокрутка */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  color: #333;
+  margin-left: 20px;
+  font-size: 24px;
+}
+
+p {
+  font-size: 16px;
+  margin: 20px;
+}
+
+ol {
+  font-size: 16px;
+}
+
+li {
+  font-size: 16px;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f1f1f1;
+  font-size: 14px;
+}
+
+.anchor-link {
+  position: fixed; 
+  right: 20px; 
+  bottom: 20px; 
+  background-color: #333;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 50%;
+  font-size: 24px; /* Увеличиваем размер стрелки */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.anchor-link:hover {
+  background-color: #555;
+}
+
+/* Секция галереи */
+#gallery {
+  margin: 20px;
+}
+
+.photo-grid {
+  display: flex; /* Используем Flexbox для горизонтального размещения */
+  gap: 20px; /* Расстояние между колонками */
+  justify-content: center; /* Выровнять изображения по центру */
+}
+
+.photo {
+  width: 45%; /* Задаем ширину каждого блока изображения */
+}
+
+.photo img {
+  width: 100%; /* Изображения занимают всю ширину контейнера */
+  height: auto;
+  border-radius: 10px; /* Радиус закругления углов */
+}
+
+

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Life in University</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form id="universityForm" action="javascript:void(0);">
+    <label for="age">Возраст:</label>
+    <input type="number" id="age" name="age" min="15" max="111" placeholder="Введите ваш возраст">
+
+    <label for="year">Год поступления в универ:</label>
+    <input type="number" id="year" name="year" min="1900" max="2138" placeholder="Введите год поступления">
+
+    <button onclick="calculatePercentage()">Подсчитать</button>
+
+    <div id="result"></div>
+  </form>
+  <script src="main.js" defer></script>
+</body>
+</html>
